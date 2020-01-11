@@ -1,0 +1,10 @@
+[env]
+DEST_DIR = "<name>.docset/Contents/Resources/Documents/"
+
+[tasks.build]
+command = "mdbook"
+args = [
+	"build",
+	"--dest-dir",
+	"${DEST_DIR}"
+]

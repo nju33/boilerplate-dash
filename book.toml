@@ -1,0 +1,15 @@
+[book]
+authors = ["nju33"]
+language = "ja"
+multilingual = false
+src = "src"
+title = "A document"
+description = ""
+
+[output.html]
+git-repository-url = "https://github.com/rust-lang/mdBook"
+git-repository-icon = "fa-github"
+
+
+[output.html.search]
+enable = false
